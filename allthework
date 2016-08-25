@@ -1,0 +1,26 @@
+#!/bin/bash
+
+set -e
+
+addusers="./geuaausers.lua"
+swap="exchange environments/global/users.yml environments/global/inactiveusers.yml"
+
+#if ! cat environments/global/users.yml | grep melo
+#then
+#    $swap
+#fi
+
+envs=( 'site1/dev' 'site1/sandbox' 'site1/prod' 'site2/sandbox' 'site2/prod' )
+for e in "${envs[@]}"
+do
+#    $addusers remove bosh $e
+#    $addusers remove cf $e
+#    $swap
+#    $addusers remove bosh $e
+#    $addusers remove cf $e
+    $addusers bosh $e
+#    $addusers cf $e
+#    $swap
+#	$addusers groupsonly bosh $e
+#	$addusers groupsonly cf $e
+done

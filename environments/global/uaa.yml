@@ -1,0 +1,5 @@
+config:
+  uaa:
+    target: (( param "Please provide a target for this env"))
+    client_secret: (( param "Please provide a client secret" ))
+    skipssl: true

@@ -1,0 +1,14 @@
+#!/bin/bash
+
+scriptDir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
+deps=(
+    "luafilesystem"
+    "lub"
+    "yaml"
+    )
+
+for dep in ${deps[@]}
+do
+    luarocks build "${scriptDir}"/vendor/"${dep}"*.src.rock
+done

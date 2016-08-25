@@ -1,0 +1,4 @@
+config:
+  uaa:
+    target: login.system.site2.sandbox.starkandwayne.com
+    client_secret: client_secret_from_uaa_deployment

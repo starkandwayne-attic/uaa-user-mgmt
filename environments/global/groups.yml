@@ -1,0 +1,5 @@
+---
+groups:
+- name: scim.write
+  members:
+  - user.3@starkandwayne.com

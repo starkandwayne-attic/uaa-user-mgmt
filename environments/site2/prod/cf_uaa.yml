@@ -1,0 +1,4 @@
+config:
+  uaa:
+    target: login.system.site2.prod.starkandwayne.com
+    client_secret: ajdhlunliurhlaiuerhvbn

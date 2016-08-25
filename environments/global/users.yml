@@ -1,0 +1,10 @@
+---
+users:
+- password: fasdffasdfS7sh;
+  name: user.3@starkandwayne.com
+  email: user.3@starkandwayne.com
+- password: shyrtgsdfgS7sh;
+  name: user.4@starkandwayne.com
+  email: user.4@starkandwayne.com
+#- name: newuser.5@starkandwayne.com
+#  email: newuser.5@starkandwayne.com

@@ -1,0 +1,9 @@
+config:
+  password:
+    min_length: 8
+    digits: 2
+    lower_case: 1
+    special: 1
+    upper_case: 2
+    max_length: 15
+

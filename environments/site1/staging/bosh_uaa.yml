@@ -1,0 +1,4 @@
+config:
+  uaa:
+    target: https://bosh-pr.site1.stg.starkandwayne.com:8443
+    client_secret: admin-password
